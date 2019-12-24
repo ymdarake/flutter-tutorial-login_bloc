@@ -20,14 +20,19 @@ class LoginScreen extends StatelessWidget {
     return TextField(
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
-          hintText: 'you@example.com', labelText: 'Email Address'),
+        hintText: 'you@example.com',
+        labelText: 'Email Address',
+      ),
     );
   }
 
   Widget passwordField() {
     return TextField(
       obscureText: true,
-      decoration: InputDecoration(hintText: 'Password', labelText: 'Password'),
+      decoration: InputDecoration(
+        hintText: 'Password',
+        labelText: 'Password',
+      ),
     );
   }
 
