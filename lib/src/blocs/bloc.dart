@@ -18,7 +18,7 @@ class Bloc extends Object with Validators {
 }
 
 // Single Global Bloc Instance for small apps,
-final bloc = Bloc();
+// final bloc = Bloc();
 
 // Scoped Instances possibly better for large apps.
 // new Bloc() inside some other widgets.
